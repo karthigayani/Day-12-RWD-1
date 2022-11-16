@@ -1,0 +1,60 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    border: 2px solid black;
+    margin: 100px;
+    padding: 30px;
+    align-content: center;
+    text-align: center;
+    height: 500px;
+    position:relative;
+    /* flex-wrap: wrap; */   
+}
+p{
+    padding: 10px;
+}
+.box{
+    border: 2px solid black;
+    position:absolute;
+    margin: 20px;
+    padding: 30px;
+    height: 310px;
+    font-size: larger;
+    width: 93.5%;  
+}
+input{
+    width: 460px;
+    /* border: 2px solid black; */
+}
+.Img{
+    border: 2px solid black;
+    margin: 15px 45px 55px 45px;
+    padding: 50px;
+    position:absolute;
+    width: 170px;
+}
+/* .circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+} */
+.dis{
+    margin: 5px 10px 5px 350px;
+    /* padding: 20px; */
+    position:absolute;
+    text-align: right;
+    /* border: 2px solid black;     */
+}
+.dis1{
+    margin: 190px 5px 5px 450px;
+    padding: 30px;
+    position:absolute;
+    text-align: right;      
+}
+button{
+    width:160px;
+    height: 40px;
+    background-color: white;
+}
